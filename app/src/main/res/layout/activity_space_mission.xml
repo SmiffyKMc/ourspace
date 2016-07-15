@@ -1,0 +1,86 @@
+<RelativeLayout
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/insigniaCard"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/insigniaImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/insigniaName"
+                    android:layout_below="@id/insigniaImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/crewRecyclerView"
+                android:layout_below="@+id/insigniaCard"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/crewRecyclerView"
+                android:id="@+id/mission_detail_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:fontFamily="sans-serif-condensed"
+                        android:id="@+id/mission_detail_text"
+                        android:textSize="30sp"
+                        android:text="Mission Detail"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/mission_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_below="@+id/mission_detail_text"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+

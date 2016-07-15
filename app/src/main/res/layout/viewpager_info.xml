@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="fragments.viewpager.InfoViewPagerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/info"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information" />
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_below="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:fontFamily="sans-serif-condensed"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/info"
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"/>
+    </ScrollView>
+
+</RelativeLayout>

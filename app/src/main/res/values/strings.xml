@@ -1,0 +1,923 @@
+<resources>
+    <string name="app_name">Our Space</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string-array name="planet_names">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </string-array>
+
+    <string name="title_stats">Statistics</string>
+    <string name="title_comparison">Comparison</string>
+
+    <!-- Mercury -->
+    <string name="stats_mercury">
+        Temperature : -170 Celsius to 427 Celsius\n\n
+
+        Length of Days : 58d 15h 30m\n\n
+
+        Number of Days : 88 Earth Days\n\n
+
+        Average Distance from the Sun : 35,980,000 miles\n\n
+
+        Mass : 328.5E21 kg (0.055 Earth mass)\n\n
+
+        Surface Area : 28.88 million sq miles\n
+    </string>
+    <string name="information_mercury">
+         Mercury is the closest planet to the sun. As such, it circles the sun faster than all the other planets,
+        which is why Romans named it after the swift-footed messenger god Mercury.\n\n
+
+        Mercury was known since at least Sumerian times roughly 5,000 years ago,
+        where it was often associated with Nabu, the god of writing. It was also given separate names for its appearance as both a morning star and as an evening star.\n\n
+
+        Greek astronomers knew, however, that the two names referred to the same body. Heraclitus believed that both Mercury and Venus orbited the sun, not Earth.\n\n
+
+        Because the planet is so close to the sun, Mercury\'s surface temperature can reach a scorching 840 degrees Fahrenheit (450 degrees Celsius).\n\n
+
+        However, since this world doesn\'t have a real atmosphere to entrap any heat, at night temperatures can plummet to minus 275 F (minus 170 C),
+        a temperature swing of more than 1,100 degrees F (600 degree C), the greatest in the solar system.\n\n
+
+        Mercury\'s rapid 88-day orbit around the Sun makes it hard to reach using space probes from Earth - it moves 20 km/s (12 miles per second)
+        faster through space than our own planet.\n\n
+
+        Mariner 10 managed a series of three flybys in the early 1970s, but these left roughly halve the planet unmapped, but with
+        its flyby of the planet it was able to map one of the largest Impact Basins in the Solar System.\n\n
+
+        The Caloris Basin.
+    </string>
+    <string name="feature_mercury">
+        One of the most spectacular surface features on Mercury is the Caloris Basin . It first became known when NASA\'s
+        Mariner 10 spacecraft sent back the first detailed photos from this planet - a mosaic of some of them is shown above.\n\n
+
+        The Caloris Basin has an overall diameter of some 1300 km. It is covered by concentric "rings" of mountains - some of these
+        ranges are 30 to 50 km long and form "rims" about 2 km high.\n\n
+
+        This large surface formation was probably caused by an impacting asteroid with a diameter above 100 kilometers. It must have
+        been a tremendously violent event.\n\n
+
+        The seismic waves that were produced from the impact travelled through the planet and focused on the other side of the planet.
+        Exactly opposite the Caloris Basin they produced a strange-looking region that was first described as the "weird" terrain with a chaotic mix of hills and fractures.\n\n
+
+        After the impact the enormous crater was partially filled by lava flows. The Caloris Basin has a wrinkled floor, perhaps representing fractures from rapid cooling of this
+        lava. Some older craters which were "flooded" by the lava outpouring from the Caloris impact are also visible.\n\n
+
+        Both in size and structure, the Caloris Basin very much resembles Mare Orientale on the Earth\'s Moon.\n\n
+
+        The Caloris Basin gets very hot because it is near the ("sub-solar") point on Mercury\'s surface that faces the Sun when the planet is closest to the Sun.\n\n
+
+        Altogether, there are more than 20 large, multi-ringed basins on Mercury\'s surface - many of them are very old and are covered by large numbers of later impact craters.\n\n
+    </string>
+
+    <!-- Venus -->
+    <string name="stats_venus">
+        Temperature : -43 Celsius to 462 Celsius\n\n
+
+        Length of Days : 116d 18h 0m\n\n
+
+        Number of Days : 224.7 Earth Days\n\n
+
+        Average Distance from the Sun : 67,240,000 miles\n\n
+
+        Mass : 4.867E24 kg (0.815 Earth mass)\n\n
+
+        Surface Area : 177.7 million sq miles\n
+    </string>
+    <string name="information_venus">
+         Venus, the second planet from the sun, is named after the Roman goddess of love and beauty. The planet — the only planet named after a female —
+        may have been named for the most beautiful deity of her pantheon because it shone the brightest of the five planets known to ancient astronomers.\n\n
+
+        In ancient times, Venus was often thought to be two different stars, the evening star and the morning star — that is, the ones that first appeared at sunset and sunrise.\n\n
+
+        Venus and Earth are often called twins because they are similar in size, mass, density, composition and gravity. However, the similarities end there.
+        Venus is the hottest world in the solar system. Although Venus is not the planet closest to the sun, its dense atmosphere traps heat in a runaway version of the greenhouse effect that warms Earth.\n\n
+
+        As a result, temperatures on Venus reach 870 degrees Fahrenheit (465 degrees Celsius), more than hot enough to melt lead. Probes that scientists have landed there have survived only a few hours before being destroyed.\n\n
+
+        Venus has a hellish atmosphere as well, consisting mainly of carbon dioxide with clouds of sulfuric acid, and scientists have only detected trace amounts of water in the atmosphere. The atmosphere is heavier than that of any other planet,
+        leading to a surface pressure 90 times that of Earth.\n\n
+
+        Crater on Venus are few and far between - partly because the planet\'s dense atmosphere shields it from Comets, Meteorites and Asteroids from space.\n\n
+
+        But also because the surface is quite young compared to other terrestrial planets, besides Earths. According to experts, Venus was largely resurfaced
+        in a series of enormous volcanic eruptions that petered out around 500 million years ago.\n\n
+
+        Venus, as a Volcanic World is covered in volcanoes that spew and erupt molton lava to the crust. One of these Volcanoes is staggeringly
+        hugh with a diameter of 300-km (186 miles).\n\n
+
+        Sif Mons.
+    </string>
+    <string name="feature_venus">
+        Venusian radar maps such as those from NASA\'s Magellan satellite reveal that Venus is a world dominated by volcanoes in many
+        different forms.\n\n
+
+        Most Impressive are the towering shield volcanoes such as Sif Mons, also named after the Norse Goddess Sif, shown here in a
+        Magellan radar visualization that exaggerates vertical scale by a factor of ten in order to show the massive scale of the volcano\'s
+        300km(186 miles) diameter more clearly.\n\n
+
+        Surrounded by solidified lava flows, these volcanoes dominate raised plateaus known as Maxwell Montes, Alpha and Beta Regio.\n\n
+    </string>
+
+    <!-- Earth -->
+    <string name="stats_earth">
+        Temperature : -89.2°C to 56.7°C\n\n
+
+        Length of Days : 24h 0m\n\n
+
+        Number of Days : 365 Earth Days\n\n
+
+        Average Distance from the Sun : 92,960,000 miles\n\n
+
+        Mass : 5.972E24 kg (1 Earth mass)\n\n
+
+        Surface Area : 196.9 million sq miles\n
+    </string>
+    <string name="information_earth">
+         Earth, our home, is the third planet from the sun. It is the only planet known to have an atmosphere containing free oxygen,
+        oceans of liquid water on its surface, and, of course, life. \n\n
+
+        Earth is the fifth largest of the planets in the solar system — smaller than the four gas giants, Jupiter, Saturn, Uranus and Neptune,
+        but larger than the three other rocky planets, Mercury, Mars and Venus.\n\n
+
+        It is round because gravity pulls matter into a ball, although it is not perfectly round, instead being more of an "oblate spheroid" whose
+        spin causes it to be squashed at its poles and swollen at the equator.\n\n
+
+        Roughly 71 percent of Earth\'s surface is covered by water, most of it in the oceans. About a fifth of Earth\'s atmosphere is made up of oxygen,
+        produced by plants. While scientists have been studying our planet for centuries, much has been learned in recent decades by studying pictures of Earth from space.\n\n
+
+        Water vapor, carbon dioxide and other gases in the atmosphere trap heat from the sun, warming Earth. Without this so-called "greenhouse effect," Earth would probably be too cold for life to exist,
+        although a runaway greenhouse effect led to the hellish conditions now seen on Venus.\n\n
+
+        Where Earth\'s tectonic plates come together, the results can be spectacular, as one plate is forced to give away to another on
+        a timescale of millions of years. If the collision is between oceanic and continental crust, the thin oceanic crust is usually
+        forced downwards, melting as it plunges back into the mantle below.\n\n
+
+        But releasing heat in the process that can trigger volcanoes along the edge of the overlying continent. This is how
+        volcanic mountain chains such as the Andes of South America have formed.\n\n
+
+        Collisions between two blocks of continental crust can be even more impressive, as seen where the Indo-Australian plate
+        has collided with Asia over the past 70 million years to form the Himalayans and it\'s biggest mountain on Earth.\n\n
+
+        Mount Everest
+    </string>
+    <string name="feature_earth">
+        With a peak elevation of 29,035 feet (8850 meters), the top of Mount Everest is the world\'s highest point above sea level.
+        As the world\'s highest mountain, climbing to the top of Mount Everest has been a goal of many mountain climbers for many decades.\n\n
+
+        On the border of Nepal and Tibet, Mount Everest is located in the Himalaya, the 1500 mile (2414 kilometer) long mountain system
+        that was formed when the Indo-Australian plate crashed into the Eurasian plate.\n\n
+
+        The Himalaya rose in response to the subduction of the Indo-Australian plate under the Eurasian plate and continue to rise a few
+        centimeters each year as the Indo-Australian plate continues moving northward into and under the Eurasian plate.\n\n
+
+        Everest is called "Chomolungma" in Tibet. It means mother goddess of the universe and "Sagarmatha" in Nepal which means goddess of the sky.\n\n
+
+        Mount Everest was known as Peak XV by the British until it was given its current English name of Mount Everest in 1865. The mountain was named
+        after Sir George Everest, who served as the Surveyor General of India from 1830 to 1843.\n\n
+
+        The first recorded efforts to reach Everest\'s summit were made by British mountaineers. With Nepal not allowing foreigners into the country at
+        the time, the British made several attempts on the north ridge route from the Tibetan side.\n\n
+
+        The summit was first reached on May 29, 1953 by Sir Edmund Hillary from New Zealand and Tenzing Norgay, a Sherpa from Nepal. They climbed from
+        the south side on a British expedition lead by Colonel John Hunt. While the youngest ever to reach the top was American Jordan Romero, age 13,
+        on May 23, 2010 from the north side.\n\n
+    </string>
+
+    <!-- Mars -->
+    <string name="stats_mars">
+        Temperature : -125 Celsius to 20 Celsius\n\n
+
+        Length of Days : 1d 0h 40m\n\n
+
+        Number of Days : 686.98 Earth Days\n\n
+
+        Average Distance from the Sun : 141,600,000 miles\n\n
+
+        Mass : 639E21 kg (0.107 Earth mass)\n\n
+
+        Surface Area : 55.91 million sq miles
+    </string>
+    <string name="information_mars">
+         Mars is the fourth planet from the sun. Befitting the red planet\'s bloody color, the Romans named it after their god of war.
+        The Romans copied the ancient Greeks, who also named the planet after their god of war, Ares.\n\n
+
+        Other civilizations also typically gave the planet
+        names based on its color — for example, the Egyptians named it "Her Desher," meaning "the red one," while ancient Chinese astronomers dubbed it "the fire star."\n\n
+
+        The bright rust color Mars is known for is due to iron-rich minerals in its regolith, — which is the loose dust and rock covering its surface.\n\n
+
+        The soil of Earth is a kind of regolith, albeit one loaded with organic content. According to NASA, the iron minerals oxidize, or rust, causing the soil to look red.\n\n
+
+        Many regions of Mars are flat, low-lying plains. The lowest of the northern plains are among the flattest, smoothest places in the solar system, potentially created by water that once flowed
+        across the Martian surface.\n\n
+
+        The northern hemisphere mostly lies at a lower elevation than the southern hemisphere, suggesting the crust may be thinner in the north than in the south.
+        This difference between the north and south might be due to a very large impact shortly after the birth of Mars.\n\n
+
+        Vast deposits of what appear to be finely layered stacks of water ice and dust extend from the poles to latitudes of about 80 degrees in both hemispheres.
+        These were probably deposited by the atmosphere over long spans of time.\n\n
+
+        On top of much of these layered deposits in both hemispheres are caps of water ice that remain frozen all year round.
+        Additional seasonal caps of frost appear in the wintertime.\n\n
+
+        These are made of solid carbon dioxide, also known as "dry ice," which has condensed from carbon dioxide gas in the atmosphere, and in the deepest part of the winter, this frost can extend
+        from the poles to latitudes as low as 45 degrees, or halfway to the equator.\n\n
+
+        This dry ice layer appears to have a fluffy texture, like freshly fallen snow, according to the report in the
+        Journal of Geophysical Research-Planets.\n\n
+
+        Mars is the holder of the biggest mountain in the solar system - an enormous \' shield volcano \' made from lava that poured from multiple
+        fissures along its flanks over hundreds of millions of years.\n\n
+
+        It\'s dome is more then 620 km (385 miles) across, and rises to 27 km
+        (17 miles) above the average Martian surface, or 19 km (12 miles) above the Tharis bulge on which it stands on. This humongous mountain.\n\n
+
+        Olympus Mons.
+    </string>
+    <string name="feature_mars">
+        The largest of the volcanoes in the "Tharsis Montes" region, as well as all known volcanoes in the solar system, is Olympus Mons.\n\n
+
+        Olympus Mons is a shield volcano 624 km (374 mi) in diameter (approximately the same size as the state of Arizona in the United States), 25 km (16 mi) high,
+        and is rimmed by a 6 km (4 mi) high scarp.\n\n
+
+        To compare, the largest volcano on Earth is Mauna Loa. Mauna Loa is a shield volcano 10 km (6.3 mi) high and 120 km (75 mi) across. The volume of Olympus Mons is about 100 times larger than that of Mauna Loa.
+        In fact, the entire chain of Hawaiian islands (from Kauai to Hawaii) would fit inside Olympus Mons!\n\n
+
+        The main difference between the volcanoes on Mars and Earth is their size; volcanoes in the Tharsis region of Mars are 10 to 100 times larger than those anywhere on Earth.\n\n
+
+        The lava flows on the Martian surface are observed to be much longer, probably a result of higher eruption rates and lower surface gravity.\n\n
+
+        Another reason why the volcanoes on Mars are so massive is because the crust on Mars doesn\'t move the way it does on Earth.\n\n
+
+        On Earth, the hot spots remain stationary but crustal plates are moving above them. The Hawaiian islands result from the northwesterly movement
+        of the Pacific plate over a stationary hotspot producing lava.\n\n
+
+        As the plate moves over the hotspot, new volcanoes are formed and the existing ones become extinct.\n\n
+
+        This distributes the total volume of lava among many volcanoes rather than one large volcano. On Mars,
+        the crust remains stationary and the lava piles up in one, very large volcano.\n\n
+    </string>
+
+    <!-- Jupiter -->
+    <string name="stats_jupiter">
+        Temperature : -128 Celsius to 4 Celsius\n\n
+
+        Length of Days : 0d 9h 56m\n\n
+
+        Number of Days : 11.86 Earth Days\n\n
+
+        Average Distance from the Sun : 483,800,000 miles\n\n
+
+        Mass : 1.898E27 kg (317.8 Earth mass)\n\n
+
+        Surface Area : 23.71 billion sq miles\n
+    </string>
+    <string name="information_jupiter">
+         Jupiter is the largest planet in the solar system. Fittingly, it was named after the king of the gods in Roman mythology.\n\n
+
+        In a similar manner, the ancient Greeks named the planet after Zeus, the king of the Greek pantheon.\n\n
+
+        Jupiter helped revolutionize the way we saw the universe and ourselves in 1610, when Galileo discovered Jupiter\'s four large moons
+        — Io, Europa, Ganymede and Callisto, now known as the Galilean moons.\n\n
+
+        This was the first time celestial bodies were seen circling an object other than Earth, major support of the Copernican view that
+        Earth was not the center of the universe.\n\n
+
+        Jupiter is the most massive planet in our solar system, more than twice as massive as all the other planets combined, and had it been
+        about 80 times more massive, it would have actually become a star instead of a planet.\n\n
+
+        Its atmosphere resembles that of the sun, made up mostly of hydrogen and helium, and with four large moons and many smaller moons in orbit around it. While also having
+        the luxury of raining Diamonds from it\'s clouds. \n\n
+
+        Jupiter by itself forms a kind of miniature solar system. All told, the immense volume of Jupiter could hold more than 1,300 Earths.\n\n
+
+        With such a huge mass, Jupiter holds a gargantuan magnetic field which is the strongest of all the planets in the solar system at nearly 20,000 times the strength of Earth\'s.\n\n
+
+        It traps electrically charged particles in an intense belt of electrons and other electrically charged particles that regularly blasts the planet\'s
+        moons and rings with a level of radiation more than 1,000 times the lethal level for a human, damaging even heavily shielded spacecraft such as NASA\'s Galileo probe.\n\n
+
+        Jupiter has around 63 moons, which are often named after the Roman god\'s lovers. The four largest of the moons, now called Io, Europa, Ganymede, and Callisto, were discovered
+        by Galileo Galilei himself, and are appropriately known today as the Galilean satellites.\n\n
+
+        It\'s most famous feature is a vast oval storm large enough to engulf the Earth, swirling aggressively anti-clockwise and towering
+        up to 8 km (5 miles) above the surrounding clouds. This huge monster superstorm is named the,\n\n
+
+        The Red Spot.
+
+    </string>
+    <string name="feature_jupiter">
+        The Great Red Spot is a great anti-cyclonic (high pressure) storm akin to a hurricane on Earth, but it is enormous (three Earths would fit within its boundaries)
+        and it has persisted for at least the 400 years that humans have observed it through telescopes.\n\n
+
+        Since it is anti-cyclonic in Jupiter\'s Southern hemisphere, the rotation is counterclockwise, with a period of about 6 days.
+        (A hurricane in Earth\'s Southern hemisphere rotates clockwise because it is a low pressure system.)\n\n
+
+        Many believe that Giovanni Cassini was the first to observe it in the late 1600s, but scientists doubt that it had just formed at that time.\n\n
+
+        The Great Red Spot is more than twice the size of Earth,.Winds inside this storm reach speeds of about 270 miles per hour.\n\n
+
+        Vortices like the Great Red Spot can dissipate because of many factors. For instance, waves and turbulence in and around the storm sap its winds of energy.\n\n
+
+        Some researchers suggest that large vortices such as the Great Red Spot gain energy and survive by absorbing smaller vortices.\n\n
+
+        Yet it is not known exactly what causes the Great Red Spot\’s reddish color. The most popular theory, which is supported by laboratory experiments,
+        holds that the color may be caused by complex organic molecules, red phosphorus, or other sulfur compounds.\n\n
+
+    </string>
+
+    <!-- Saturn -->
+    <string name="stats_saturn">
+        Temperature : -178 Celsius to 57 Celsius\n\n
+
+        Length of Days : 0d 10h 39m\n\n
+
+        Number of Days : 10832 Earth Days\n\n
+
+        Average Distance from the Sun : 890,700,000 miles\n\n
+
+        Mass : 568.3E24 kg (95.16 Earth mass)\n\n
+
+        Surface Area : 16.49 billion sq miles\n
+    </string>
+    <string name="information_saturn">
+         Saturn is the sixth planet from the sun and the second largest planet in the solar system.
+        Saturn was the Roman name for Cronus, the lord of the Titans in Greek mythology. Saturn is the root of the English word "Saturday."\n\n
+
+        Saturn is the farthest planet from Earth visible to the naked human eye, but it is through a telescope that the planet\'s most outstanding
+        features can be seen: Saturn\'s rings.\n\n
+
+        Although the other gas giants in the solar system — Jupiter, Uranus and Neptune — also have rings, those of Saturn are without a doubt the most extraordinary.\n\n
+
+        Saturn is a gas giant made up mostly of hydrogen and helium. Saturn is large enough to hold more than 760 Earths, and is more massive than any other planet except Jupiter,
+        roughly 95 times Earth\'s mass.\n\n
+
+        However, Saturn has the lowest density of all the planets, and is the only one less dense than water — if there were a swimming pool big enough to hold it, Saturn would float.\n\n
+
+        Galileo Galilei was the first to see Saturn\'s rings in 1610, although from his telescope they resembled handles or arms. It took Dutch astronomer Christian Huygens, who had a more
+        powerful telescope, to propose that Saturn had a thin, flat ring.\n\n
+
+        The largest ring spans up to 200 times the diameter of the planet. These rings are believed to be debris left over from comets, asteroids or shattered moons.\n\n
+
+        While all the giant planets have rings, Saturn\'s are by far the brightest and best developed. Different sections of the rings are easily
+        distinguished from one another - the bright A and B rings are separated by an apparently empty gap called the Cassini Division.\n\n
+
+        While the C (or \'Crepe\') ring, inside the B ring, has a semi-transparent appearance.\n\n
+
+        Saturn\'s most famous feature, of course, is its spectacular ring system.\n\n
+
+        Saturn\'s Rings.
+    </string>
+    <string name="feature_saturn">
+        The rings of Saturn are the most extensive planetary ring system of any planet in the Solar System.
+        They consist of countless small particles, ranging in size from micrometres to metres, that orbit about Saturn.\n\n
+
+        The ring particles are made almost entirely of water ice, with a trace component of rocky material.\n\n
+
+        There is still no consensus as to their mechanism of formation; some features of the rings suggest a relatively recent origin,
+        but theoretical models indicate they are likely to have formed early in the Solar System\'s history.\n\n
+
+        Although reflection from the rings increases Saturn\'s brightness, they are not visible from Earth with unaided vision. In 1610,
+        the year after Galileo Galilei first turned a telescope to the sky, he became the very first person to observe Saturn\'s rings,
+        though he could not see them well enough to discern their true nature.\n\n
+
+        The rings have numerous gaps where particle density drops sharply: two opened by known moons embedded within them, and many others
+        at locations of known destabilizing orbital resonances with Saturn\'s moons.\n\n
+
+        Well beyond the main rings is the Phoebe ring, which is tilted at an angle of 27 degrees to the other rings and, like Phoebe, one of Saturn\'s moons,
+        orbits in retrograde fashion.\n\n
+    </string>
+
+    <!-- Uranus -->
+    <string name="stats_uranus">
+        Temperature : -224°C to -153°C\n\n
+
+        Length of Days : 0d 17h 14m\n\n
+
+        Number of Days : 84.3 Earth Days\n\n
+
+        Average Distance from the Sun : 1,787,000,000 miles\n\n
+
+        Mass : 86.81E24 kg (14.54 Earth mass)\n\n
+
+        Surface Area : 3.121 billion sq miles\n
+    </string>
+    <string name="information_uranus">
+         Uranus is the seventh planet from the sun and the first to be discovered by scientists.
+        Although Uranus is visible to the naked eye, it was long mistaken as a star because of the planet\’s dimness and slow orbit.\n\n
+
+        The planet is also notable for its dramatic tilt, which causes its axis to point nearly directly at the sun.\n\n
+
+        Uranus, with no solid surface, is one of the gas giant planets. (The others are Jupiter, Saturn, and Neptune.)
+        Its atmosphere is composed primarily of hydrogen and helium, with a small amount of methane and traces of water and ammonia.\n\n
+
+        Uranus gets its blue-green color from methane gas. Sunlight is reflected from Uranus\'s cloud tops, which lie beneath a layer of methane gas.
+        As the reflected sunlight passes back through this layer, the methane gas absorbs the red portion of the light, allowing the blue portion to pass
+        through and resulting in the blue-green color that we see.\n\n
+
+        Even though Uranus is tipped on its side and experiences seasons that last over 20 years, the temperature differences on the summer and
+        winter sides do not differ greatly because the planet is so far from the sun.\n\n
+
+        Because of the unusual orientation of the planet, Uranus\'s rings are perpendicular to its orbital around the sun. The ten outer rings are dark, thin,
+        and narrow, while the 11th ring is inside the others and is broad and diffuse.\n\n
+
+        Like it\'s neighbour Saturn, Uranus has it\'s own set of Rings around the planet. These rings around Uranus were discovered by accident in 1977,
+        when astronomers waiting to record the planet\'s passage in front of a star. Seen from Earth, these rings immediately give away the planet\'s
+        strange orientation.\n\n
+
+        It\'s main attraction?\n\n
+
+        Rings of Uranus
+    </string>
+    <string name="feature_uranus">
+        The rings of Uranus were discovered on March 10, 1977, by James L. Elliot, Edward W. Dunham, and Jessica Mink.\n\n
+
+        By 1978, nine distinct rings were identified. Two additional rings were discovered in 1986 in images taken by the Voyager 2
+        spacecraft, and two outer rings were found in 2003–2005 in Hubble Space Telescope photos.\n\n
+
+        The majority of Uranus\'s rings are opaque and only a few kilometers wide. The ring system contains
+        little dust overall; it consists mostly of large bodies 0.2–20 m in diameter.\n\n
+
+        The rings are thought to be relatively young, at not more than 600 million years old. The Uranian ring system probably
+        originated from the collisional fragmentation of a number of moons that once existed around the planet.\n\n
+
+        After colliding, the moons probably broke up into numerous particles, which survived as narrow and optically
+        dense rings only in strictly confined zones of maximum stability.\n\n
+
+        As a whole, the ring system of Uranus is unlike either the faint dusty rings of Jupiter or the broad and complex
+        rings of Saturn, some of which are composed of very bright material—water ice.\n\n
+
+        Yet the Neptunian ring system is quite similar to that of Uranus, although it is less complex, darker and contains more dust;
+        the Neptunian rings are also positioned further from the planet.\n\n
+    </string>
+
+    <!-- Neptune -->
+    <string name="stats_neptune">
+        Temperature : -218°C to -200°C\n\n
+
+        Length of Days : 0d 16h 6m\n\n
+
+        Number of Days : 60,190 Earth Days\n\n
+
+        Average Distance from the Sun : 2,795,000,000 miles\n\n
+
+        Mass : 102.4E24 kg (17.15 Earth mass)\n\n
+
+        Surface Area : 2.941 billion sq miles\n
+    </string>
+    <string name="information_neptune">
+         Neptune is the eighth planet from the sun. It was the first planet to get its existence predicted
+        by mathematical calculations before it was actually seen through a telescope on Sept. 23, 1846.\n\n
+
+        Irregularities in the orbit of Uranus led French astronomer Alexis Bouvard to suggest that the gravitational pull from another celestial body might be responsible.
+        German astronomer Johann Galle then relied on subsequent calculations to help spot Neptune via telescope.\n\n
+
+        Previously, astronomer Galileo Galilei sketched the planet, but he mistook it for a star due to its slow motion. In accordance with all the other planets seen in the sky, this new world
+        was given a name from Greek and Roman mythology — Neptune, the Roman god of the sea.\n\n
+
+        Neptune is home to the highest winds in the solar system, ripping around the planet at 600m/s(1300 miles per hours) - almost super sonic speeds.\n\n
+
+        These winds propel small white clouds known as scooters around the planet, and also wrap narrow bands of high-altitude wispy cloud around Neptune\'s circumference.\n\n
+
+        Neptune being far from the Sun, the heat provided by sunlight is far too weak to power such energetic weather systems - instead it seems that
+        Neptune, like it\'s neighboured gas planets, generates energy deep within itself.\n\n
+
+        This internal energy output can be boosted by changes to the atmosphere\'s internal chemistry and, in Neptune\'s case the chemistry involved
+        may be remarkable. \n\n
+
+        It\'s thought that in a layer deep beneath the surface, carbon atoms from compressed liquefied methane are forced together to form minute crystals
+        of diamond, releasing energy in the process. \n\n
+
+        During the Voyager 2\'s 1989 flyby Neptune was seen with a huge storm raging. A humongous hole through the upper layers of the cloud was
+        observed by the probe and this \'hole\', just like Jupiter\'s storm, it the biggest attraction of Neptune.\n\n
+
+        This Eye of Neptune: \n\n
+
+        The Great Dark Spot.
+    </string>
+    <string name="feature_neptune">
+        The Great Dark Spot was one of a series of dark spots on Neptune similar in appearance to Jupiter\'s Great Red Spot.\n\n
+
+        This was the first Great Dark Spot on Neptune to be observed in 1989 by NASA\'s Voyager 2 spaceprobe.\n\n
+
+        Like Jupiter\'s spot, Great Dark Spots are anticyclonic storms. However, their interiors are relatively cloud-free, and unlike
+        Jupiter\'s spot, which has lasted for hundreds of years, their lifetimes appear to be shorter, forming and dissipating once every few years or so.\n\n
+
+        Based on observations taken with Voyager 2 and since then with the Hubble Space Telescope, Neptune appears to spend somewhat more than half its time with a Great Dark Spot.\n\n
+
+        The Great Dark Spot generated large white clouds at or just below the tropopause layer similar to high-altitude cirrus clouds found on Earth.\n\n
+
+        Unlike the clouds on Earth, however, which are composed of crystals of ice, Neptune\'s cirrus clouds are made up of crystals of frozen methane. And while cirrus clouds
+        usually form and then disperse within a period of a few hours, the clouds in the Great Dark Spot were still present after 36 hours, or two rotations of the planet.\n\n
+
+        Almost all that is known about Neptune is based on the research carried out by Voyager 2.\n\n
+
+    </string>
+    <string name="title_activity_moons_view_pager">MoonsViewPagerActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_moon_info">MoonInfoActivity</string>
+
+    <!-- **** MOONS **** -->
+    <!-- Mars Moons -->
+    <string name="mars_phobos">
+        Mars is circled by two small moons, named Phobos and Deimos after the sons of Mars in classical mythology. Each much smaller than Earth\'s own Moon
+        - Phobos, the innermost and larger of the two, is just 22 km (14miles) across.\n\n
+
+        Both orbit much closer to their planet then Earth\'s, Circling Mars in just 7.7 hours and 30.3 hours respectively.\n\n
+
+        Despite its asteroid-like features, it now seems that Phobos is not a captured asteroid, but is instead a chunk of debris ejected from Mars itself
+        during a huge ancient impact.\n\n
+
+        Phobos is too small to be rounded under its own gravity and does not have an atmosphere due to low mass and its low gravity.
+        It is one of the least reflective bodies in the Solar System.\n\n
+
+        Due to tidal interactions, Phobos is drawing closer to Mars by one meter every century, and it is predicted that in 50 million years
+        it will collide with the planet or break up into a planetary ring.\n\n
+
+        Phobos\'s most distinctive feature is a huge crater called Stickney, some 9km (5.6 miles) across.\n\n
+    </string>
+    <string name="mars_deimos">
+        Deimos is the smaller and outer of the two natural satellites of the planet Mars and with a length of only 9.9 miles (11 km), It is also one of
+        the smallest known moons in the Solar System.\n\n
+
+        In Greek mythology, Deimos was the twin brother of Phobos and personified terror.\n\n
+
+        At a distance of 14,573 miles (23,460 km), Deimos is more than twice as far from Mars than Phobos. It appears as little more than a
+        moderately bright spot in the Martian sky.\n\n
+
+        Because of the greater distance, Deimos takes over 30 hours to make one complete orbit of Mars.\n\n
+
+        Like Phobos, its irregular shape bears more of a resemblance to the large asteroids in the asteroid belt between Mars and Jupiter.\n\n
+
+        It is possible that is was an asteroid at one time, but was captured by the gravity of Mars. Some astronomers believe that the two Martian
+        moons may be leftover fragments of a larger object that was destroyed by a collision.\n\n
+
+        Like Phobos, Deimos is a rather unremarkable object. It, too, is essentially just a large rock potted with several craters, yet Deimos does have a
+        much smoother appearance and fewer craters than its cousin, Phobos.\n\n
+
+        Because of its greater distance from Mars, Deimos faces a different fate than its sibling. It is not destined to crash into Mars like Phobos. Rather,
+        Deimos is slowly moving farther away from Mars.\n\n
+
+        Just like Earth\'s moon, it is believed that Deimos will eventually leave the orbit of its parent planet, never to be see again.
+
+    </string>
+
+    <!-- Jupiter's Moons -->
+    <string name="jupiter_io">
+        Io, is the fifth of Jupiter\'s moons and the third largest, it being just slightly larger than Earth\'s moon.\n\n
+
+        Io is named after a maiden who was loved by Zeus. In the Greek myth, Zeus turned her into a heifer in an attempt to hide her from his jealous wife, Hera.\n\n
+
+        Io was discovered by Galileo Galilei and Simon Marius in 1610 and is one of the four Galilean satellites and nearly everything we know about Io was learned from the Voyager and Galileo missions.\n\n
+
+        It is the most volcanically active object in our solar system. Gravitational forces from Jupiter pull it in different
+        directions throughout each 42-hour orbit, heating the interior and powering widespread eruptions.\n\n
+
+        Io\'s volcanism is boosted is boosted considerably by the fact that much of the surface rock is made of sulphur
+        componds that melt at low temperatures.\n\n
+
+        Different forms of sulfur known as allotropes can take on a wide range of colours, predominantly red, orange, yellow, green and white, giving Io a
+        surprisingly colourful surface.\n\n
+
+        The most striking features are the volcanoes on Io. Astronomers believe that Io is caught in a process known as "tidal pumping". It is constantly being pulled by Europa and Ganymede, and then
+        pulled back in its orbit by Jupiter. This "tug-of-war" is literally pulling the planet inside out. This process distorts Io\'s surface by as much as 330 feet (100 meters).\n\n
+
+        The friction caused by this process creates a lot of heat within the small moon. It is similar to the way a coat hanger heats up when it is bent back and forth.\n\n
+
+    </string>
+    <string name="jupiter_europa">
+        At first glance, Jupiter\'s second major moon, Europa, forms a stark contrast to the turbulent Io. It appears to be a placid,
+        frozen world, covered in brilliant pinkish-white ice.\n\n
+
+        However, this kilometer-thick icy crust hides an amazing truth - deep down, Europa is a waterworld covered with a global ocean
+        of liquid water perhaps 100km (62 miles) deep.\n\n
+
+        The water is kept warm by volcanic activity on the seafloor, similar to that seen around deep-sea trenches on Earth, and many
+        astronomers hope that Europa might be an ideal place to look for alien life in our solar system.\n\n
+
+        Europa is named after a Phoenician princess who was abducted by Zeus and taken to the island of Crete to be his lover. Zeus
+        took the form of a white bull and coaxed Europa to climb on his back as he swam off to Crete.\n\n
+
+        The most apparent features on Europa are a series of dark streaks crisscrossing the entire surface of the moon. Astronomers believe
+        that these marks may have been formed by a series of volcanic eruptions or geysers.\n\n
+
+        Another theory is that tidal forces cause the frozen surface of Europa to crack. Water from the interior then flows through the cracks and refreezes.\n\n
+
+        Like Ganymede, Europa was long thought to have no atmosphere. But recent observations with the Hubble space telescope indicate that a thin atmosphere of oxygen exists.\n\n
+    </string>
+    <string name="jupiter_ganymede">
+        The third of Jupiter\'s Galilean moons, Ganymede, is also the largest moon in the solar system -
+        a world that is larger than Mercury.\n\n
+
+        At first glance, it seems disappointingly inactive compared to its inner neighbours, with a frozen surface made
+        from a mix of ice and rock, and no substantial atmosphere.\n\n
+
+        However, Ganymede\'s orbit has evolved over the 5-billion-year lifetime of the Jupiter system, and it, too, was once in
+        position to receive significant amounts of \'tidal heating\' from Jupiter.\n\n
+
+        Residual heat from this time may even help to maintain a thin saltwater ocean beneath the visible crust.\n\n
+
+        Ganymede gets its name from a young Trojan boy in Greek mythology, who was made cup-bearer to the gods by Zeus.\n\n
+
+        The Galileo spacecraft discovered that Ganymede has its own magnetosphere embedded inside Jupiter\'s. Scientists believe
+        it is generated in a process similar to Earth\'s, by the motion of conductive material in the interior.\n\n
+
+        This makes Ganymede the only moon known to have a magnetosphere.\n\n
+
+        Astronomers believe that Ganymede has a molten iron or sulfur core. This core is surrounded by rocky material with a frozen
+        icy crust on top. This crust is believed to be formed mainly of water ice.\n\n
+
+        Ganymede was long thought to have no atmosphere, but recent discoveries by the Hubble space telescope suggest that the moon
+        may have an extremely thin oxygen atmosphere similar to the one detected on Europa.\n\n
+
+        Even though Ganymede may have an oxygen atmosphere, it is believed to be far too thin to support any form of life though.
+
+    </string>
+    <string name="jupiter_callisto">
+        Callisto is the second largest moon of Jupiter and the third largest moon in the Solar System.\n\n
+
+        While Jupiter\'s inner Galilean moons have all been shaped by the influence of \'tidal heating\' from the giant
+        planet itself, Callisto - the outermost moon - has escaped these effects.\n\n
+
+        As a result, its surface retains a pristine record of more than 4 billion years of impacts from object drawn by Jupiter\'s
+        gravity - experts believe its the most cratered world in the solar system.\n\n
+
+        Callisto was named after a nymph in Greek mythology who was a love interest of Zeus. When Hera, queen of the gods,
+        found out about the relationship, she changed Callisto into a bear. Zeus then placed her in the heavens as the constellation Ursa Major (the big dipper).\n\n
+
+        Callisto is very different from other rocky moons in the Solar System. For example, there are no mountains on Callisto. Astronomers believe this to be a result of movement in its icy surface.\n\n
+
+        The entire surface of Callisto is covered with craters. The largest craters have concentric rings that look like huge cracks in the surface. These rings may have formed when water beneath the crust leaked through to the surface.\n\n
+
+        Like Ganymede, Callisto\'s craters have been smoothed out by the flow of its icy crust. The craters lack the ringed mountains
+        and central depressions that characterize craters on Mercury and the Moon. One very interesting feature is known as Gipul Catena.\n\n
+
+    </string>
+
+    <!-- Saturn's Moons -->
+    <string name="saturn_mimas">
+        Saturn has a huge family of moons that display a great variety of surface features. The innermost satellites are small \'shepherd moons\'
+        that orbit in and around Saturn\'s rings.\n\n
+
+        Mimas is the innermost of the somewhat larger \'mid-sized\' moons. With a diameter of just 400 km (250 miles), it is also the smallest world
+        in the solar system with sufficient gravity to pull itself into a spherical shape.\n\n
+
+        This is largely due to its composition - measurements of its density show it close to that of pure ice, which is easier to pull into
+        shape then solid rock.\n\n
+
+        Mimas was named after one of the Greek Titans who was the son of Gaia and was slain by Hercules.\n\n
+
+        Although the surface of Mimas is heavily cratered, the most striking feature of this small moon is a gigantic crater known as Herschel.\n\n
+
+        This crater measures a whopping 80 miles (130 km) across. A central peak in the center of the crater rises to a height of 4 miles,
+        almost as high as Mount Everest on Earth. Since Mimas is only 242 miles (392 km) in diameter, this crater is almost 1/3 of the entire moon\'s diameter\n\n
+
+        Astronomers believe that if the object that caused this impact had been any larger, it would have completely destroyed Mimas. This impact was so devastating,
+        in fact, that fracture marks can be found on the opposite side of the moon from the crater.\n\n
+
+        Fans of Star Wars will no doubt see another resemblance.\n\n
+    </string>
+    <string name="saturn_enceladus">
+        The second largest moon of Saturn, Enceladus, is barely 100 km (62 miles) wider than Mimas, but is a remarkably different world,
+        and one of the most fascinating moons in the solar system.\n\n
+
+        Enceladus has a brilliant white surface - the brightest landscape in the solar system - and a distinct lack of craters.\n\n
+
+        In fact, the entire moon is covered in fresh snow, released in geyser-like eruptions from liquid water reservoirs just below the surface.\n\n
+
+        This remarkable activity is driven by tidal heating caused by a gravitational \'tug of war\' between Saturn and the outer moon Dione.\n\n
+
+        Enceladus was named after a Greek Titan who rebelled against the gods and who was later defeated in battle by Aphrodite and buried under Mount Etna.\n\n
+
+        Unlike many of Saturn\'s other ice moons, Enceladus contains at least five types of surface features. In addition to cratered areas,
+        this moon contains smooth plains, linear cracks and ridges, fissures, and unusual crustal deformations.\n\n
+
+        The craters on Enceladus are all smaller than 21 miles (35 km) in diameter. The cracks, ridges, and other unusual
+        features seem to indicate that the interior of the moon may still be liquid.\n\n
+
+        This could be caused by internal heat as a result of tidal forces from Saturn, very similar to those on Jupiter\'s moon Io.\n\n
+
+        After the early Voyager encounters with Saturn, scientists theorized that Enceladus may be geologically active.\n\n
+
+        It was also believed that water venting through the moon\'s surface could be responsible for some of the material in one of Saturn\'s rings.\n\n
+
+        In 2005, images from NASA\'s Cassini spacecraft showed what looked like plumes of icy material rising from the surface of Enceladus. Later
+        images showed jets of icy particles resembling geysers, or ice volcanoes, erupting from the moon\'s southern polar region.\n\n
+
+    </string>
+    <string name="saturn_tethys">
+        Tethys is the ninth of Saturn\'s known moons and is the fifth largest and a near twin of it\'s cousin Dione, the next moon out.\n\n
+
+        It was named after the Greek Titaness who was a sea goddess and both sister and wife of Oceanus. She was the personification of the fertile
+        ocean, and her 3,000 children became the springs, lakes, and rivers of the world.
+
+        Tethys is believed to be composed almost entirely of water ice. It is one of several such icy worlds
+        in orbit around Saturn, and is very similar to Rhea in composition.\n\n
+
+        The moon has a very low density, and this suggests a much larger concentration of ice than rock. This icy surface is heavily cratered.\n\n
+
+        This heavily crated surface is dominated by a huge impact basin called Odysseus. At 248 miles (400 km) in diameter, this crater is nearly 2/5 the size of the entire moon.
+        But despite its size, this ring like feature is fairly shallow - evidence that Tethys\'s surface is prone to \'slump\' over time.\n\n
+
+        Another major feature of Tethys is a humongous valley called Ithaca Chasma. This canyon is about 60 miles (96 km) wide
+        and 3 miles (4.8 km) deep, and runs 1,242 miles (2,000 km) long.\n\n
+
+        These surface features suggest to astronomers that Tethys was not always frozen solid. Some believe that it may have existed
+        in a liquid state at some time in the past.\n\n
+    </string>
+    <string name="saturn_dione">
+        Dione is another mid-sized icy moon, similar in size and general appearance to Tethys, although measurements of its
+        density reveal that it must contain a considerable amount of more rock.\n\n
+
+        It was named after the mother of Aphrodite and Zeus in Greek mythology - Venus and Jupiter in Roman.\n\n
+
+        It is the densest of Saturn\'s moons with the exception of Titan and is composed mainly of water ice, but must contain
+        a larger amount of rocky material than Saturn\'s other ice moons, Tethys and Rhea.\n\n
+
+        Dione is locked in a synchronous orbit similar to that of Rhea. This causes the same face of the moon to point towards Saturn at all times.\n\n
+
+        It\'s surface consists of heavily cratered areas, moderate and lightly cratered plains, with wispy features.\n\n
+
+        Most of the heavily cratered areas exist on the trailing hemisphere of the moon. Some of these craters exceed 62 miles (100 km) in diameter,
+        while most of the craters in the plains areas are less than 18 miles (30 km) in diameter.\n\n
+
+        Since most of Dione\'s craters are located on the trailing hemisphere, astronomers believe that Rhea may have once been tidally
+        locked with Saturn in the opposite orientation.\n\n
+
+    </string>
+    <string name="saturn_rhea">
+        Rhea is the fourteenth and second largest of Saturn\'s known moons and also the largest airless moon in the Saturn\'s system.\n\n
+
+        In greek mythology, Rhea, was the wife and sister of Chronus. She was mother of Demeter, Hades (Pluto), Hera, Hestia,
+        Poseidon (Neptune), and Zeus (Jupiter).\n\n
+
+        Rhea is another Icy World in Saturn\'s system, containing an icy body which resembles it\'s neighbour Dione, although
+        slightly larger still.\n\n
+
+        It has a very low density, which means that the Icy World is mainly built with water ice and rocky materials which make up less
+        then one third of its mass.\n\n
+
+        The surface features on Rhea can be divided into two different geological areas based on the density of the craters.\n\n
+
+        The first area contains craters greater then 40 km (25 miles) in diameter, with the largest crater in this area is named Izangi with a
+        huge diameter of 225 km (140 miles).\n\n
+
+        While the second area has craters with a diameter of 25 miles or lower. Similar differences can be seen also on Rhea\'s neighbouring moons
+        Dione and Mimas.\n\n
+
+        Like Dione, Rhea is also synchronized with it\'s orbit around Saturn. Meaning that it always keeps it\'s same face directing towards
+        Saturn.
+
+
+    </string>
+    <string name="saturn_titan">
+        Titan is the fifteenth moon orbiting Saturn and is the largest. It also holds the title as the second largest moon in the solar system.\n\n
+
+        In greek mythology, Titan was the name of an ancient race of giants and children of Uranus and Gaia that tried to take over the
+        heavens. But they were overthrown by Zeus(Jupiter) and his family of gods.\n\n
+
+        Titan was once thought to be the biggest planet in the solar system, but latest discoveries shown that the moon\'s atmosphere is
+        cloaks a rocky surface that is slightly smaller then Jupiter\'s moon Ganymede.\n\n
+
+        Even though Titan is the second largest moon in the solar system, it is still larger than Mercury and Pluto.\n\n
+
+        When Voyager arrived to Titans doorstep all that could be seen was a thick, impenetrable layer of clouds in it\'s thick atmosphere.\n\n
+
+        Titan was found to have a denser atmosphere then that of Earth and Mars, with the atmospheric pressure on the surface to be at 1.6 bars.
+        60 percent greater the Earths.\n\n
+
+        Since Titan has a thicker atmosphere containing hydrocarbons, scientists have long theorized that there could be liquid lakes on the
+        surface of Titan. Liquid lakes of methane and ethane.\n\n
+
+        After Voyager was unable to penetrate the thick atmosphere in 1980-81, NASA\'s Cassini spacecraft arrived at Saturn in 2005 armed with radar.\n\n
+
+        Thanks to Cassini\'s radar instruments, NASA was able to map the moon\'s surface. Leading to the discovery that Titan does indeed hold liquid lakes.\n\n
+
+        Scientists and Astronomers alike believe that Titan may resemble the early stages of Earth in it\'s development and that it may be the
+        prime candidate for extraterrestrial life in our solar system.\n\n
+    </string>
+    <string name="saturn_hyperion">
+        Hyperion is the sixteenth moon orbiting Saturn with a name ordinating from on of the greek mythology\'s ancient race of Titans.\n\n
+
+        Discovered in 1848 by Bond and Lassell, it is the largest known irregular object in our solar system with most other moons being
+        spherical of this size due to it\'s gravity.\n\n
+
+        Astronomers and Scientists believe that a large collision with another object may have blasted away part of the moon,leaving behind the
+        moon we have today, Hyperion.\n\n
+
+        Hyperion also has a very low density, which means it mainly consists of water ice and a small amount of rocky material.\n\n
+
+        The surface is heavily cratered which shows that Hyperion might be one of the oldest surface in Saturn\'s system, with one of
+        the craters being a large 120 km wide (75 miles).\n\n
+
+        An odd feature of Hyperion is that it\'s rotation is very chaotic. Its axis of rotation wobbles so much that its rotation varies from
+        one orbit to the next. It is the only known body in the Solar System known to do this. \n\n
+    </string>
+    <string name="saturn_iapetus">
+        Iapetus is the seventeenth of the moons orbiting Saturn and the third largest of the lot.\n\n
+
+        It\'s the name of another Titan in greek mythology, son of Uranus and the father of both Prometheus and Atlas and an ancestor of the human race.\n\n
+
+        In greek legend Iapetus was imprisoned by Zeus in Tartarus after the rebellion of the Titans against the Gods.\n\n
+
+        The moon also has a low density, like it\'s neighbours, which means it mostly consists of water ice and rocky material.\n\n
+
+        Iapetus is a moon of stark contrasts, it\'s top hemisphere is very dark with a a slight hue of red, while the lower hemisphere is very bright.\n\n
+
+        The dark area of Iapetus is one of the darkest terrains in the solar system and also darker then asphalt.\n\n
+
+        The reason for this dark terrain is unknown. It could be from dark matter swept up from it vast space or something that spewed out
+        from the moon itself.\n\n
+
+        One of the features of Iapetus is a dark smooth region known as the Cassini Regio. Very few craters can be seen on this terrain, but
+        Astronomers believe that the dark material that is on the surface continually replenishes which covers up any new craters that may appear.\n\n
+
+        Yet on the opposite side of Iapetus is the Roncevaux Terra, which is littered in hundreds of craters, with the largest being Roland with
+        a diameter of 90 miles (144 km).\n\n
+
+    </string>
+    <string name="saturn_phoebe">
+        Beyond Iapetus, Saturn\'s eighteenth outermost moon is Phoebe. Also known as the virgin godess of the hunt and the moon, and the twin sister
+        of Apollo.\n\n
+
+        Unlike other neighbour moons, Phoebe orbits Saturn in a retrograde motion, meaning it orbits in the opposite direction then the other moons.\n\n
+
+        Phoebe appears to be roughly spherical in shape with a a very low albedo, 0.05 in fact, which makes it darker then coal but with a hue of red.\n\n
+
+        It is said by scientists and astronemoers that the dark material on Phoebe is the source of the identical dark material on Hyperion and
+        Iapetus.\n\n
+
+        This dark material might have been blasted away from Phoebe from a comet, spewing it\'s dark substance to the neighbouring moons.\n\n
+
+        Phoebe rotates on it\'s axis once every 9 hours, which because of this, it\'s rotation is not synchronize. Meaning it doesn\'t show the same side
+        of it\'s face to Saturn like it\'s neighbours, except Hyperion.\n\n
+    </string>
+
+    <!-- Uranus's Moons -->
+    <string name="uranus_miranda">
+        While Uranus has up to 27 moons, comets and asteroids orbiting it, one really sticks out.\n\n
+
+        Miranda is the eleventh moon in Uranus\'s orbit and also the fifth largest. Yet it is the smallest of the 5 main innermost
+        moons, it is the most intriguing.\n\n
+
+        While all moons in the solar system was named after greek and roman mythology, the moons orbiting Uranus are named after
+        classical literature characters. Mainly from Shakespeare\'s characters.\n\n
+
+        Miranda was named after Prospero the magician\'s daughter from Shakespeare\'s The Tempest.\n\n
+
+        Miranda is unlike any other moon in our solar system, it\'s surface is mixed and jumbled collection of curious terrains. It\'s thought
+        to be combined between water ice and rocky materials like other moons.\n\n
+
+        Scientists and Astronomers believed the moon to have little to no activity, like Jupiter\'s moon Callisto, yet when images of Voyager 2
+        returned, they were amazed with what they had gazed upon.\n\n
+
+        Miranda looked like a frankenstein world, almost looking like different rock terrains were glued together.\n\n
+
+        There was huge differences in the terrain, steep cliffs, deep canyons, smooth plains and curious riffs along its surface.\n\n
+
+        Astronomers believe that the moon might have been torn apart and reformed itself together again in ancient collisions.\n\n
+
+        Yet the real reason is still a mystery.\n\n
+    </string>
+
+    <!-- Neptune's Moons -->
+    <string name="neptune_triton">
+        The planet Neptune is surrounded by a system of 8 moons, which are mostly small with a diameter of 500 miles.\n\n
+
+        However, Triton is quite large which is why it shown here with more information.\n\n
+
+        In greek mythology, Triton is the son of Poseidon, the god of the sea (Neptune). He is normally portrayed with the head and
+        body of a man and a tail of a fish.\n\n
+
+        Triton is a retrograde moon. This means that it orbits Neptune in the opposite direction to Neptune\'s rotation. Triton is the
+        only large moon that does this in the solar system.\n\n
+
+        Some Astronomers believe that Triton was made somewhere else in the vast space and captured in Neptune\'s gravity to become
+        one of Neptune\'s moons.\n\n
+
+        In fact many believe that the surface and size, is similar to that of Pluto\'s and that if there is a connection between Pluto and
+        the moon as Pluto actually comes into Neptune\'s orbit from time to time.\n\n
+
+        Triton is one of the coldest object in the solar system, with a surface temperature of -235 degrees celsius, which is mostly
+        caused by the moon\'s high albedo.\n\n
+
+        There are very few craters on Triton\'s surface which is a sign that the moon is young in nature and probably highly active.\n\n
+
+        It\'s most interesting feature is when Voyager 2 was taking pictures of Triton\'s surface, it photographed a plume of an eruption
+        ejecting out frozen material.\n\n
+
+        Astronomers believe the material to be liquid nitrogen and methane.\n\n
+    </string>
+    <string name="title_activity_space_mission">SpaceMissionActivity</string>
+
+</resources>
